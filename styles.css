@@ -4,7 +4,11 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	min-height: 100vh;
+	min-height:100%;
+}
+
+html {
+	height: 100%;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -171,15 +175,15 @@ body {
 		align-items: center;
 		justify-content: center;
 		padding-left: 0;
+		margin: 0;
 	}
 
 	#order {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		width: 100%;
 		justify-content: center;
-		margin: 0 0 0 0;
-		padding-left: 0;
 	}
 }
 
